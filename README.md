@@ -1,5 +1,4 @@
-[IMAGE]
-
+![title](https://github.com/elloza/Matlab-Telegram-Bot-Channel/blob/master/images/title.png)
 
 # Matlab-Telegram-Bot-Channel
 This is a practice for the subject called Informatics Techniques in Physics, Degree on Physics. This subject is focus on teaching programming languages such as Matlab and C to first degree year students for getting first contact with the programming world.
