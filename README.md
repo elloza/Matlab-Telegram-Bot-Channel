@@ -1,4 +1,4 @@
-![title](media/265cd8eb87b9d6c9f6e2a4d878fec5ae.shtml)
+![title](https://github.com/elloza/Matlab-Telegram-Bot-Channel/blob/master/images/title.png)
 
 title
 
@@ -24,7 +24,7 @@ Several exercises are proposed
 Main idea
 =========
 
-![title](media/265cd8eb87b9d6c9f6e2a4d878fec5ae.shtml)
+![title](https://github.com/elloza/Matlab-Telegram-Bot-Channel/blob/master/images/scheme_idea.png)
 
 Proposed exercises
 ==================
