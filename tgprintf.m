@@ -26,9 +26,6 @@ function ret = tgprintf(varargin)
 %token = DEFAULT_TOKEN_HERE;
 %chat_id = DEFAULT_CHAT_ID_HERE;
 
-token = '***REMOVED***';
-chat_id = '***REMOVED***';
-
 str = sprintf(varargin{:});
 
 % print to MATLAB command window
