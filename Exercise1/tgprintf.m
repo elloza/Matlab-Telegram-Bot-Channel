@@ -23,11 +23,8 @@ function ret = tgprintf(varargin)
 % seongsikpark@postech.ac.kr
 
 % default token and chat_id
-%token = DEFAULT_TOKEN_HERE;
-%chat_id = DEFAULT_CHAT_ID_HERE;
-
-token = '683038341:AAHG13YyPO1VPYQFIJGlsudgKr6Jnap4KFw';
-chat_id = '-1001224516147';
+token = DEFAULT_TOKEN_HERE;
+chat_id = DEFAULT_CHAT_ID_HERE;
 
 str = sprintf(varargin{:});
 

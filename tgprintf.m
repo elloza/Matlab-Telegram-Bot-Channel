@@ -26,9 +26,6 @@ function ret = tgprintf(varargin)
 %token = DEFAULT_TOKEN_HERE;
 %chat_id = DEFAULT_CHAT_ID_HERE;
 
-token = '683038341:AAHG13YyPO1VPYQFIJGlsudgKr6Jnap4KFw';
-chat_id = '-1001224516147';
-
 str = sprintf(varargin{:});
 
 % print to MATLAB command window
