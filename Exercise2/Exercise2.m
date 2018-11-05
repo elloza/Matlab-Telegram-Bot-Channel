@@ -3,38 +3,13 @@
 % soil moisture, light and conductivity 
 %
 % This script requires internet connection.
+channel = 557950;
 
 % This function enables get the last N points from channel
-data = getDataFromThingspeak(100);
-
-% Data is stored in type table (Review use of table in the documentation)
-disp(data)
+data = getDataFromThingspeak(100,channel);
 
 % Plot some data
-
-subplot(221)
-plot(data{:,1},data{:,2});
-title('Temperature');
-xlabel('Time');
-ylabel('Temperature in celsius(0.1°C resolution)');
-
-subplot(222)
-plot(data{:,1},data{:,3});
-title('Soil moisture');
-xlabel('Time');
-ylabel('Moisture in %');
-
-subplot(223)
-plot(data{:,1},data{:,4});
-title('Conductivity');
-xlabel('Time');
-ylabel('Conductivity [µS/cm] ');
-
-subplot(224)
-plot(data{:,1},data{:,5});
-title('Light');
-xlabel('Time');
-ylabel('Sunlight intensity, in [lux]');
+display_data(data)
 
 % Compute some statistics:
 
@@ -47,6 +22,7 @@ ylabel('Sunlight intensity, in [lux]');
 % Detetect when someone enter in the office based on the lux parameter (Same approach)
 
 % Detect outliers (<https://es.mathworks.com/help/matlab/ref/isoutlier.html>)
+
 
 
 
